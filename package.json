@@ -1,0 +1,26 @@
+{
+  "name": "everlib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "electron app",
+    "esbuild-start": "esbuild src/main.tsx --bundle --tsconfig=tsconfig.json --outfile=app/main.js --watch",
+    "ts-watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "electron": "^24.1.2",
+    "electron-reloader": "^1.2.3",
+    "esbuild": "^0.17.17",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
